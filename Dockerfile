@@ -1,0 +1,6 @@
+FROM n8nio/n8n:latest
+
+# Optional: Enable basic authentication
+ENV N8N_BASIC_AUTH_ACTIVE=true
+ENV N8N_BASIC_AUTH_USER=admin
+ENV N8N_BASIC_AUTH_PASSWORD=supersecurepassword
